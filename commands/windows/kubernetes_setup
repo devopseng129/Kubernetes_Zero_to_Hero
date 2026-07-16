@@ -1,0 +1,16 @@
+##Install Docker Desktop
+https://www.docker.com/products/docker-desktop/
+docker --version
+docker ps
+
+##Install kubectl Using Chocolatey
+choco install kubernetes-cli -y
+kubectl version --client
+
+##Install Kind Using Chocolatey
+choco install kind -y
+kind version
+
+##Create Cluster
+kind create cluster --name k8s-zero-to-hero
+kubectl get nodes

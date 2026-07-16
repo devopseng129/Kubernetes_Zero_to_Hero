@@ -5,7 +5,6 @@
 ### Course Overview
 
 - **Duration:** 8 Hours
-- **Session Duration:** 20 Minutes
 - **Total Sessions:** 24 Sessions
 
 ---
@@ -14,8 +13,8 @@
 
 ### Learning Distribution
 
-- **Theory:** ~1.5 Hours (20%)
-- **Practicals:** ~6.5 Hours (80%)
+- **Theory:** ~20%
+- **Practicals:** ~80%
 
 ### Included in the Course
 

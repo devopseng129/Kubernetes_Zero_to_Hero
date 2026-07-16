@@ -1,7 +1,23 @@
 ##Install Docker Desktop
-https://www.docker.com/products/docker-desktop/
+Download from: https://www.docker.com/products/docker-desktop/
 docker --version
 docker ps
+
+##Install Chocolatey (Windows)
+search for PowerShell, Run as Administrator
+Check Execution Policy
+    - Get-ExecutionPolicy
+If it shows: Restricted
+    - Set-ExecutionPolicy Bypass -Scope Process -Force
+Install Chocolatey:
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+[System.Net.ServicePointManager]::SecurityProtocol = `
+[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+Verify Installation: Close PowerShell and open a new terminal.
+    - choco --version
 
 ##Install kubectl Using Chocolatey
 choco install kubernetes-cli -y

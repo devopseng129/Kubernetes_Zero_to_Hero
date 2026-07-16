@@ -1,6 +1,4 @@
-# Kubernetes Zero to Hero
-
-## Kubernetes Zero to Hero - Real-Time Production Ready Kubernetes Masterclass
+# Kubernetes Zero to Hero - Real-Time Production Ready Kubernetes Masterclass
 
 ### Course Overview
 
